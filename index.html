@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
+    <script src="./script/index.js"></script>
     <header>
         <h1>
             Timmy Tang
@@ -25,57 +26,120 @@
         </section>
         <section>
             <h2>Technical Skills and Interests</h2>
-            <carp #id="track">
-
-                <div class="tile">
-                    <img src="https://images.unsplash.com/photo-1581068466660-e6585b8afa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
-                    <p>Databases</p>
+            <div id="skills">
+                <div>
+                    <h3>
+                        Areas of Interests
+                    </h3>
+                    <ul>
+                        <li>Data Science</li>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Graphics</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>
+                        Programming Languages
+                    </h4>
+                    <ul>
+                        <li>C/C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>R</li>
+                    </ul>
                 </div>
 
-                <div class="tile">
-                    <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80">
-                    <p>Data Science</p>
-                </div>
-                <div class="tile">
-                    <img src="https://images.unsplash.com/photo-1642952469120-eed4b65104be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
-                    <p>Data Structures and Algorithms</p>
-                </div>
-                <div class="tile">
-                    <img src="https://images.unsplash.com/photo-1632882765546-1ee75f53becb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80">
-                    <p>Front End Development</p>
-                </div>
-                <div class="tile">
-                    <img src="https://images.unsplash.com/photo-1635241161466-541f065683ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
-                    <p>Graphics</p>
-                </div>
-            </carp>
+            <div>
+                <h4>
+                    Operating System
+                </h4>
+                <ul>
+                    <li>Windows</li>
+                    <li>Linux</li>
+                </ul>
+            </div>
+
+            </div>
         </section>
         <section>
             <h2>Notable Projects</h2>
-            <div>
-                
+            <div id="proj">
+                <a href="https://github.com/cearlmau/lakeofkalandra">
+                    <div>
+                        The Lake of Kalandra Problem
+                    </div>
+                    </a>     
+    
+                    <a href="https://rpubs.com/timmyt/910419">
+                    <div>
+    
+                        The Concept of Playlists
+    
+                    </div>
+                    </a>
+                    <a href="https://github.com/cearlmau/unique_stash_search">
+                        <div>
+                            
+                            Unique Stash Search
+        
+                        </div>
+                    </a>
+                    <a href="https://github.com/cearlmau/cearlmau.github.io">
+                        <div>
+                            
+                            This Website
+        
+                        </div>
+                    </a>                
             </div>
         </section>
-        <section>
+        <section id="education">
             <h2>Education</h2>
-
-            <p>University of Washington 2016 - 2020</p>
             <p>University of Oregon 2021 - 2023</p>
+            <div><a href="https://cas.uoregon.edu/computer-science">Masters in Computer Science</a></div>
+            <p>University of Washington 2016 - 2020</p>
+            <div><a href="https://math.washington.edu/">Bachelor of Arts in Mathematics</a></div>
         </section>
         <section>
             <h2>Work Experience</h2>
-            <div>
+            <hr >
+            <carp id="track" data-mouse-down-at="0" data-prev-percentage="0">
+                <div class="tile" draggable="false">
+                    <p>Tech Support (2020-2021)</p>
+                    <p><a href="https://cat.pdx.edu/">Computer Action Team</a></p>
+                </div>
+                <div class="tile" draggable="false">
+            
+                    <p>Teaching Assistant (2021)</p>
+                    <p><a href="https://cas.uoregon.edu/computer-science/courses/tentative-cs-courses">CS 110: Fluency with Internet Technology</a></p>
+                </div>
 
-            </div>
+                <div class="tile" draggable="false">
+                    <p>Teaching Assistant (2021-2022)</p>
+                    <p><a href="https://cas.uoregon.edu/computer-science/courses/tentative-cs-courses">CS 110: Fluency with Internet Technology</a></p>
+                </div>
+                <div class="tile" draggable="false">
+                    <p>Teaching Assistant (2022)</p>
+                    <p><a href="https://classes.cs.uoregon.edu/22S/cis415/">CS 415: Operating Systems</a></p>
+                </div>
+                <div class="tile" draggable="false">
+                    <p>Teaching Assistant (2022)</p>
+                    <p><a href="https://cas.uoregon.edu/computer-science/courses/tentative-cs-courses">CS 111: Introduction to Web Programming</a></p>
+                </div>
+                <div class="tile" draggable="false">
+                    <p>Teaching Assistant (2022-2023)</p>
+                    <p><a href="https://cas.uoregon.edu/computer-science/courses/tentative-cs-courses">CS 110: Fluency with Internet Technology</a></p>
+                </div>
+            </carp>
+            <hr>
         </section>
-    </body>
 
     <footer>
         <div>
-
+            <a href="https://github.com/cearlmau/"><p>Github</p></a>
+            <a href="mailto: timmy_tang@outlook.com"><p>email: timmy_tang@outlook.com</p></a>
+            <a href="https://linkedin.com/in/timmytang74"><p>LinkedIn</p></a>
         </div>
-        <a href="https://github.com/cearlmau/"><p>Github</p></a>
-        <a href="timmy_tang@outlook.com"><p>email: timmy_tang@outlook.com</p></a>
     </footer>
 </body>
 </html>

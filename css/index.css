@@ -38,7 +38,7 @@ body, footer {
 }
 
 
-carp {
+#track {
     display: flex;
     gap: 4vmin;
     flex-direction: row;
@@ -50,19 +50,33 @@ carp {
     transform: translate(0%, 0%);
 }
 h2 {
+    margin-left: 3%;
     font-size: 18pt;
 }
 
-h2:hover {
-    font-style: italic;
-    text-decoration: underline;
+h3, h4, ul {
+    text-align: center;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 4vmin;
 }
 
-.tile > img {
-    height: 250px;
-    width: 250px;
-    object-fit: cover;
-    object-position: center;
+li {
+
+}
+
+carp > div {
+    -webkit-user-drag: none;
+    user-select:  none;
+}
+
+.tile {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 5%;
 }
 .tile > p {
     width: 250px;
@@ -70,3 +84,91 @@ h2:hover {
 }
 
 
+#education > p {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    font-size: 20pt;
+}
+
+#education > div {
+
+    font-size: 16pt;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-style: italic;
+    transition: 0.2s;
+    
+}
+#education > div a:link, #education > div a:visited {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 0.5px rgb(70, 65, 65);
+}
+
+#education > div a:hover {
+    color:blue;
+    text-shadow: 1px 1px solid white;
+}
+
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#proj {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#proj a {
+    border: 1px solid white;
+    min-height: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.5s;
+    color: white;
+}
+
+#proj a div {
+    text-align: center;
+}
+
+#proj a:link {
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+#proj a:hover{
+    background-color: grey;
+    border: 2px 2px solid white;
+    border-radius: 10%;
+    color: blue;
+}
+
+.tile a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.tile a:hover {
+    font-size: 110%;
+    font-weight: 660;
+}
+
+#skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
